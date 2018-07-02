@@ -14,7 +14,7 @@ public class IgaguriGenerator : MonoBehaviour {
 
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             Vector3 worldDir = ray.direction;
-            igaguri.GetComponent<IgaguriController>().Shoot(worldDir.normalized*2000);
+            igaguri.GetComponent<IgaguriController>().Shoot(worldDir.normalized*2300);
         }
 	}
 }
